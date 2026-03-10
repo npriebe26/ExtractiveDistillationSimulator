@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib import axes
 import random as rand
-from utils.AntoineEquation import *
+from src.utils.AntoineEquation import *
 from distillation.DistillationSingleFeed import DistillationModelSingleFeed
 
 class DistillationModelTernary(DistillationModelSingleFeed):

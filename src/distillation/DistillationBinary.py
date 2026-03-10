@@ -12,7 +12,7 @@ import random as rand
 from scipy.optimize import fsolve
 from scipy.optimize import brentq
 from utils.AntoineEquation import *
-from thermo_models.RaoultsLawModel import *
+from src.thermo_models.RaoultsLawModel import *
 from distillation.DistillationSingleFeed import DistillationModelSingleFeed
 
 import seaborn as sns

@@ -12,7 +12,7 @@ from thermo_models.VLEModelBaseClass import *
 import matplotlib.pyplot as plt 
 from matplotlib import axes
 import random as rand
-from utils.AntoineEquation import *
+from src.utils.AntoineEquation import *
 from thermo_models.RaoultsLawModel import *
 from distillation.DistillationModel import DistillationModel
 

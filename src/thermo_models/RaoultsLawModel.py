@@ -7,7 +7,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(
 )
 sys.path.append(PROJECT_ROOT) 
 
-from utils.AntoineEquation import *
+from src.utils.AntoineEquation import *
 from thermo_models.VLEModelBaseClass  import *
 
 class RaoultsLawModel(VLEModel):

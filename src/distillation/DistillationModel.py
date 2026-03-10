@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import random as rand
 from scipy.optimize import fsolve
 from scipy.optimize import brentq
-from utils.AntoineEquation import *
+from src.utils.AntoineEquation import *
 from thermo_models.RaoultsLawModel import *
 
 

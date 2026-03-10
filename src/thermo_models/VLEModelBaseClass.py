@@ -9,7 +9,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(
             os.pardir)
 )
 sys.path.append(PROJECT_ROOT) 
-from utils.rand_comp_gen import *
+from src.utils.rand_comp_gen import *
 
 class VLEModel:
     def __init__(self, num_comp: int, P_sys: float, comp_names, partial_pressure_eqs, use_jacobian=False):

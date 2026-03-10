@@ -9,7 +9,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(
 )
 sys.path.append(PROJECT_ROOT) 
 from thermo_models.VLEModelBaseClass import *
-from utils.AntoineEquation import *
+from src.utils.AntoineEquation import *
 from distillation.DistillationModel import *
 from distillation.DistillationDoubleFeed import *
 from scipy.interpolate import griddata
